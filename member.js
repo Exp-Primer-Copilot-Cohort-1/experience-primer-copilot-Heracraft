@@ -1,4 +1,4 @@
-function SkillsMember() {
+function skillsMember() {
     const { id } = useParams();
     const [user, setUser] = useState({});
     const [skills, setSkills] = useState([]);
